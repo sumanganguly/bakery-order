@@ -1,0 +1,28 @@
+{
+  "name": "bakery-order",
+  "version": "1.0.0",
+  "description": "A standalone application to process customer order in bakery store",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "jest --config=test/config.json --coverage"
+  },
+  "dependencies": {
+    "bunyan": "^1.8.10",
+    "bunyan-format": "^0.2.1",
+    "jsonpath": "^0.2.12",
+    "readline": "^1.3.0"
+  },
+  "devDependencies": {
+    "assert": "^1.4.1",
+    "eslint": "^3.18.0",
+    "eslint-plugin-import": "^2.2.0",
+    "eslint-plugin-node": "^4.2.2",
+    "eslint-plugin-promise": "^3.5.0",
+    "eslint-plugin-standard": "^2.1.1",
+    "jest": "^19.0.2",
+    "jest-cli": "^19.0.2"
+  },
+  "author": "Ganguly, Suman <suman.ganguly1981@gmail.com>",
+  "license": "ISC"
+}
